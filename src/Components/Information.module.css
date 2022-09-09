@@ -1,0 +1,86 @@
+.information{
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform:  translateY(-50%);
+}
+
+.circle{
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #ccc;
+    transform: rotate(0deg);
+}
+
+.img{
+    width: 70px;
+}
+
+.featureOne{
+    position: absolute;
+    top: 400px;
+    right: 50px;
+}
+
+.featureTwo{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+.featureThree{
+    position: absolute;
+    bottom: 400px;
+    left: 50px;
+}
+
+.featureFour{
+    position: absolute;
+    bottom: 150px;
+    right: 300px;
+}
+
+.features{
+    margin-left: 30px;
+}
+
+.p{
+    margin-left: 30px;
+}
+
+.mobile{
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.h3{
+    margin: 15px 0;
+}
+
+.upBtn{
+    width: 15px;
+    cursor: pointer;
+}
+
+.downBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}

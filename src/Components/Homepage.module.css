@@ -1,0 +1,30 @@
+.nav {
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+}
+
+.logo {
+  flex-basis: 20%;
+}
+
+.img {
+  width: 150px;
+}
+
+.navLinks {
+  flex: 1;
+  text-align: right;
+}
+
+.li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.a{
+    color: #fff;
+    text-decoration: none;
+}
